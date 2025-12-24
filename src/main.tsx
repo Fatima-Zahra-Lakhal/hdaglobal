@@ -4,4 +4,4 @@
   import "./styles/index.css";
 
   createRoot(document.getElementById("root")!).render(<App />);
-  
+  document.title = "HDA GLOBAL SARL | Construction TCE & Aménagement";
