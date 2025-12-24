@@ -1,23 +1,45 @@
-
-  <!DOCTYPE html>
-  <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="google-site-verification" content="5O3GBPz3-6zZMF_ZQM6aGaJvQSaBxrBHQ6cDmkdiEYQ" />
-  <link rel="icon" type="image/png" href="./src/assets/logo.png" />
 
+  <!-- Google Search Console -->
+  <meta name="google-site-verification" content="5O3GBPz3-6zZMF_ZQM6aGaJvQSaBxrBHQ6cDmkdiEYQ" />
+
+  <!-- Titre affiché sur Google -->
   <title>HDA GLOBAL SARL | Construction TCE & Aménagement</title>
 
+  <!-- Description Google -->
   <meta
     name="description"
     content="HDA GLOBAL SARL est une entreprise de construction TCE, aménagement et services divers basée à Casablanca, Maroc."
   />
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/logo.png" />
+
+  <!-- Open Graph (logo + nom entreprise) -->
+  <meta property="og:title" content="HDA GLOBAL SARL" />
+  <meta property="og:description" content="Entreprise de construction TCE, aménagement et services divers à Casablanca, Maroc." />
+  <meta property="og:image" content="https://hdaglobal.netlify.app/logo.png" />
+  <meta property="og:url" content="https://hdaglobal.netlify.app" />
+  <meta property="og:type" content="website" />
+
+  <!-- Responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Données structurées Google (LOGO OFFICIEL) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "HDA GLOBAL SARL",
+    "url": "https://hdaglobal.netlify.app",
+    "logo": "https://hdaglobal.netlify.app/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "11, rue Ahmed Sitou, Etage 2, Appt 3",
+      "addressLocality": "Casablanca",
+      "addressCountry": "MA"
+    }
+  }
+  </script>
 </head>
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
